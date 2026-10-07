@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 5e86e2066e713584399393e95e7bc0e4
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Dog_Idle
+      takeName: Idle
+      internalID: -3100369314251171874
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog_Walk
+      takeName: Walk
+      internalID: 2667949614841947897
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog_Bark
+      takeName: Bark
+      internalID: 709079226073533075
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: lowpoly dog(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Light
+      parentName: lowpoly dog(Clone)
+      position: {x: 0.020571522, y: 0.63771725, z: 0.00000016583795}
+      rotation: {x: 0.52327543, y: -0.34203395, z: 0.7269423, w: 0.28416628}
+      scale: {x: 48.646965, y: 48.646957, z: 48.64696}
+    - name: Camera
+      parentName: lowpoly dog(Clone)
+      position: {x: -7.3588915, y: 4.958309, z: 6.925791}
+      rotation: {x: 0.090628475, y: 0.89379627, z: -0.20997295, w: 0.3857798}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: Cylinder
+      parentName: lowpoly dog(Clone)
+      position: {x: 0.020571522, y: 0.42720896, z: 0.00000016583795}
+      rotation: {x: 0.000000021394449, y: -0.0000000044664317, z: -0.20436008, w: 0.9788958}
+      scale: {x: 121.81994, y: 121.81994, z: 121.81992}
+    - name: Armature
+      parentName: lowpoly dog(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone
+      parentName: Armature
+      position: {x: 0.010199685, y: 0.000000004906166, z: 0.009837162}
+      rotation: {x: 0.50194347, y: -0.49804917, z: 0.4980489, w: 0.5019434}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.9999998}
+    - name: Bone.001
+      parentName: Bone
+      position: {x: -1.6299342e-11, y: 0.0054226047, z: -7.81597e-16}
+      rotation: {x: 0.000000059604645, y: 0.000000074505806, z: 0.0017668158, w: 0.99999845}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1}
+    - name: Bone.002
+      parentName: Bone.001
+      position: {x: 3.0908268e-10, y: 0.006506457, z: 9.3132255e-12}
+      rotation: {x: 0.000000029225049, y: -0.00000007419838, z: 0.0060034953, w: 0.999982}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: Bone.003
+      parentName: Bone
+      position: {x: 0.0012456524, y: 0.000037390077, z: -4.2870751e-10}
+      rotation: {x: 0.8228131, y: 0.506319, z: 0.21982315, w: -0.13526869}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000006}
+    - name: Bone.004
+      parentName: Bone.003
+      position: {x: -1.6065314e-10, y: 0.0023237371, z: -9.313225e-11}
+      rotation: {x: 0.231867, y: -0.0000003948807, z: -0.40297413, w: 0.88535273}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999995}
+    - name: Bone.005
+      parentName: Bone.004
+      position: {x: 4.377216e-10, y: 0.0017071789, z: 8.1956386e-10}
+      rotation: {x: 0.27290827, y: 0.00000027114487, z: -0.47430217, w: 0.8369937}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: Bone.R
+      parentName: Bone
+      position: {x: -0.0055023762, y: 0.013871925, z: -0.002978718}
+      rotation: {x: 0.046432994, y: -0.21042271, z: 0.643028, w: 0.73490226}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000001}
+    - name: Bone.R.001
+      parentName: Bone
+      position: {x: -0.005320803, y: 0.004118502, z: -0.0033293348}
+      rotation: {x: -0.36084422, y: 0.17382914, z: 0.67088276, w: 0.62409234}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1}
+    - name: Bone.L
+      parentName: Bone
+      position: {x: -0.0051027266, y: 0.0040358636, z: 0.0033632603}
+      rotation: {x: -0.08618398, y: 0.1880016, z: 0.73331416, w: 0.6476713}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000004}
+    - name: Bone.L.001
+      parentName: Bone
+      position: {x: -0.005511604, y: 0.013769342, z: 0.0031922802}
+      rotation: {x: 0.29777694, y: -0.26239866, z: 0.5405123, w: 0.74183714}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000002}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
